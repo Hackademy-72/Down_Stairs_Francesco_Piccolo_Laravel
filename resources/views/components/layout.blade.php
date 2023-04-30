@@ -3,26 +3,21 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>DownStairs</title>
+    {{-- bootstrap --}}
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="/public/css/style.css">
+    {{-- css --}}
+    <link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
 
-    <nav class="fixed-top d-flex justify-content-center align-items-end">
-        <h4>About</h4>
-        <h4>Work</h4>
-        <h4>Diray</h4>
-        <h4>Contact</h4>
-    </nav>
+    <x-navbar></x-navbar>
 
-    <main class="d-flex vh-100 justify-content-center">
-        <img src="/public/media/down.jpg" alt="logo" class="down">
-        <img src="/public/media/stairs.jpg" alt="logo" class="stairs">
-    </main>
+    {{$slot}}
 
+    {{-- bootstrap --}}
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <!-- js -->
-    <script src="/public/js/script.js"></script>
+    <script src="/js/script.js"></script>
   </body>
 </html>

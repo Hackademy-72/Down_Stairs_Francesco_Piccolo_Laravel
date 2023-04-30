@@ -29,3 +29,142 @@ main{
     animation-timing-function: ease-in-out;
     transform: translate(0px, 45px);
 }
+
+@keyframes stickerRotate {
+    from{
+        transform: rotate(0deg);
+    } to {
+        transform: rotate(360deg);
+    }
+}
+
+.sticker{
+    height: 120px;
+    position: absolute;
+    margin-left: 87%;
+    margin-top: -5%;
+    animation-name: stickerRotate;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.padding-base{
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+.row-2-home {
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+
+.card-1{
+    height: 851px;
+    transition: 1s;
+}
+
+.card-text{
+    opacity: 0;
+}
+
+.card:hover .card-text{
+    opacity: 1;
+    transition: 1s;
+}
+
+.p-1-home{
+    margin-left: -200px;
+}
+
+.card-1:hover{
+    transform: translateY(-25px);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.card-img{
+    background-image: url('https://www.downstairs.design/wp-content/uploads/2022/12/Downstairs_x_Environment_Action_SwissPlasticAction_thumbnail.jpg');
+
+    background-size: cover;
+}
+
+.card{
+    margin-top: 50px;
+    border: none;
+}
+
+  .container1 {
+    width: 100%;
+    overflow: hidden;
+   }
+   
+   #text2 {
+     display: inline-block;
+     padding-left: 100%;
+     animation: scorrimento2 25s linear infinite;
+     white-space: nowrap;
+    }
+
+    #text {
+   display: inline-block;
+   padding-left: 100%;
+   animation: scorrimento 30s linear infinite;
+   white-space: nowrap;
+   font-size: 180px;
+   font-weight: bold;
+   color: black;
+  }
+
+
+  @keyframes scorrimento {
+   from {
+    transform: translateX(0%);
+   }
+   to {
+    transform: translateX(-100%);
+   }
+  }
+
+  @keyframes scorrimento2 {
+    from {
+     transform: translateX(-100%);
+    }
+    to {
+     transform: translateX(0%);
+    }
+   }
+
+   .social{
+    gap: 30px;
+   }
+
+   footer{
+    padding-left: 20vh;
+    padding-right: 20vh;
+    margin-bottom: 10vh;
+    margin-top: 5vh;
+   }
+
+   .line{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+   }
+
+   .line2{
+    border-bottom: 1px solid black;
+   }
+
+   .footertext1{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+   }
+
+   .footertext3{
+    padding-top: 5vh;
+   }
+
+   .footertext2{
+    padding-top: 5vh;
+    margin-bottom: 5vh;
+   }

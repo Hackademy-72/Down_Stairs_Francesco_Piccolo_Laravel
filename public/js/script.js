@@ -1,5 +1,11 @@
-// let stairs = document.getElementsByClassName('stairs');
+window.onload = function() {
+    let container = document.getElementById("container");
+    let text = document.getElementById("text");
+    container.style.height = text.offsetHeight + "px";
+   };
 
-// stairs.style.transitionDelay = "4s";
-
-// // // object.style.transitionDelay = "4s";
+   window.onload = function() {
+    let container = document.getElementById("container");
+    let text2 = document.getElementById("text2");
+    container.style.height = text2.offsetHeight + "px";
+   };
