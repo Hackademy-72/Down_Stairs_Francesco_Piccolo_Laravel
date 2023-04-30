@@ -140,9 +140,9 @@ main{
    }
 
    footer{
-    padding-left: 20vh;
-    padding-right: 20vh;
-    margin-bottom: 10vh;
+    padding-left: 15vh;
+    padding-right: 15vh;
+    /* margin-bottom: 10vh; */
     margin-top: 5vh;
    }
 
@@ -167,4 +167,23 @@ main{
    .footertext2{
     padding-top: 5vh;
     margin-bottom: 5vh;
+   }
+
+   .logo2{
+    height: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+   }
+
+   .linefooter{
+    border-bottom: 10px solid black;
+    padding-left: 15vh;
+    padding-right: 15vh;
+   }
+
+   .totop{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 25px;
    }
