@@ -9,8 +9,7 @@
   <div class="container-fluid padding-base">
     <div class="row">
       <div class="col-6">
-        <h4 class="mt-5">Downstairs is a multidisciplinary design studio based in Amsterdam, Nederland.
-        </h4>
+        <h4 class="mt-5">Downstairs is a multidisciplinary design studio based in Amsterdam, Nederland.</h4>
       </div>
     </div>
     <div class="row row-2-home">
