@@ -27,21 +27,7 @@
 
       </div>
       <div class="col-6 d-flex justify-content-end">
-        <h4>See more</h4>
-      </div>
-    </div>
-  </div>
-
-  <div class="container1">
-    <div class="d-flex align-items-center">
-      <div id="text2">
-       <img src="/media/claim-outline-1.svg" alt="immagine testo scorrimento">
-      </div>
-    </div>
-  
-    <div class="d-flex align-items-center">
-      <div id="text">
-        <span>brands on a mission • No BS design for </span>
+        <a href=""><h4 class="seemore">See more</h4></a>
       </div>
     </div>
   </div>
