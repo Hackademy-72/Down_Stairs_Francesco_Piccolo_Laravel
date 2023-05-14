@@ -46,7 +46,7 @@ main{
     height: 120px;
     position: absolute;
     margin-left: 87%;
-    margin-top: -5%;
+    margin-top: 10%;
     animation-name: stickerRotate;
     animation-duration: 10s;
     animation-iteration-count: infinite;
@@ -116,7 +116,7 @@ main{
    padding-left: 100%;
    animation: scorrimento 30s linear infinite;
    white-space: nowrap;
-   font-size: 180px;
+   font-size: 200px;
    font-weight: bold;
    color: black;
    margin-top: -80px;
