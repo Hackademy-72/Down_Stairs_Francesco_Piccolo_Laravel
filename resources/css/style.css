@@ -68,6 +68,17 @@ main{
     transition: 1s;
 }
 
+.card-2{
+    width: 100%;
+    background-image: url(/public/media/yay_Thumbnail_new.png);
+    background-position: center;
+    background-size: cover;
+    margin-top: 80px;
+    border-radius: 30px;
+    height: 70%;
+    width: 85%;
+}
+
 .card-text{
     opacity: 0;
 }
@@ -82,6 +93,12 @@ main{
 }
 
 .card-1:hover{
+    transform: translateY(-25px);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.card-2:hover{
     transform: translateY(-25px);
     transition: 1s;
     cursor: pointer;
@@ -196,6 +213,8 @@ main{
    }
 
    .seemore{
+    position: absolute;
+    right: 110px;
     text-decoration: underline;
     height: fit-content;
     color: black;

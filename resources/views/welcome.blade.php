@@ -1,9 +1,9 @@
 <x-layout>
-    <img src="/media/no-bullshit-claim.jpg" alt="sticker" class="sticker">
+    <img src="/media/no-bullshit-claim.png" alt="sticker" class="sticker">
 
   <main class="d-flex justify-content-center">
-      <img src="/media/down.jpg" alt="logo" class="down">
-      <img src="/media/stairs.jpg" alt="logo" class="stairs down">
+      <img src="/media/down.png" alt="logo" class="down">
+      <img src="/media/stairs.png" alt="logo" class="stairs down">
   </main>
 
   <div class="container-fluid padding-base">
@@ -27,7 +27,11 @@
 
       </div>
       <div class="col-6 d-flex justify-content-end">
-        <a href=""><h4 class="seemore">See more</h4></a>
+        <a href=""><h4 class="seemore">See more</h4>
+        </a>
+        <div class="card-2">
+
+        </div>
       </div>
     </div>
   </div>
